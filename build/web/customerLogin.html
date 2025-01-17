@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Login</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('https://source.unsplash.com/1920x1080/?car,customer') no-repeat center center fixed;
+            background-size: cover;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .login-container {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 30px 40px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+            width: 400px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #1abc9c;
+            text-shadow: 2px 2px 5px #000;
+        }
+        .description {
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+            color: #dcdde1;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            font-size: 1rem;
+            margin-bottom: 8px;
+            color: #ffffff;
+        }
+        input[type="text"],
+        input[type="tel"] {
+            width: 100%;
+            padding: 10px;
+            font-size: 1rem;
+            border: none;
+            border-radius: 5px;
+            box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .button {
+            width: 100%;
+            padding: 10px 20px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: #ffffff;
+            background-color: #16a085;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .button:hover {
+            background-color: #1abc9c;
+            color: #000;
+            transform: scale(1.05);
+        }
+        .button:active {
+            transform: scale(0.95);
+        }
+        footer {
+            margin-top: 20px;
+            font-size: 0.9rem;
+            color: #b2bec3;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h1>Customer Login</h1>
+        <p class="description">Please enter your name and phone number to access your account.</p>
+        <form action="CustomerPortalServlet" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" pattern="[0-9]{10}" required>
+            </div>
+            <button class="button" type="submit">Login</button>
+        </form>
+        <footer>&copy; 2025 Car Service Solutions. All rights reserved.</footer>
+    </div>
+</body>
+</html>

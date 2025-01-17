@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Service</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('https://source.unsplash.com/1920x1080/?car,garage') no-repeat center center fixed;
+            background-size: cover;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 30px 50px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+        }
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            font-weight: bold;
+            color: #feca57;
+            text-shadow: 2px 2px 5px #000;
+        }
+        .description {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            color: #dcdde1;
+        }
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .button {
+            padding: 15px 30px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: #ffffff;
+            background-color: #34495e;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+        .button:hover {
+            background-color: #feca57;
+            color: #000;
+            transform: scale(1.05);
+        }
+        .button:active {
+            transform: scale(0.95);
+        }
+        footer {
+            margin-top: 20px;
+            font-size: 0.9rem;
+            color: #b2bec3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Car Service Options</h1>
+        <p class="description">Choose your role and explore the services we provide for mechanics, customers, and sales representatives.</p>
+        <div class="buttons">
+            <!-- Liên kết tới trang đăng nhập Mechanic -->
+            <a href="/GarageCarService/mechanic.html" class="button">Mechanic</a>
+            <!-- Liên kết tới các trang khác cho Customer và Saler -->
+            <a href="/GarageCarService/customer.html" class="button">Customer</a>
+            <a href="/GarageCarService/saler.html" class="button">Saler</a>
+        </div>
+        <footer>&copy; 2025 Car Service Solutions. All rights reserved.</footer>
+    </div>
+</body>
+</html>

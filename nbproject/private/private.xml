@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/E:/PRJ1/GarageCarService/src/java/model/mechanic.java</file>
+            <file>file:/E:/PRJ1/GarageCarService/web/customerLogin.html</file>
+            <file>file:/E:/PRJ1/GarageCarService/web/errorPageMecha.jsp</file>
+            <file>file:/E:/PRJ1/GarageCarService/src/java/controller/login/MainServlet.java</file>
+            <file>file:/E:/PRJ1/GarageCarService/web/salerLogin.html</file>
+            <file>file:/E:/PRJ1/GarageCarService/web/index.html</file>
+            <file>file:/E:/PRJ1/GarageCarService/src/java/model/saler.java</file>
+            <file>file:/E:/PRJ1/GarageCarService/src/java/model/customer.java</file>
+            <file>file:/E:/PRJ1/GarageCarService/src/java/controller/login/LoginMechaServlet.java</file>
+            <file>file:/E:/PRJ1/GarageCarService/src/java/dao/MechanicDAO.java</file>
+            <file>file:/E:/PRJ1/GarageCarService/web/mechanicLogin.html</file>
+            <file>file:/E:/PRJ1/GarageCarService/web/mechanicSuccess.jsp</file>
+        </group>
+    </open-files>
+</project-private>
